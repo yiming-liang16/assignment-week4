@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.left {
+    width:50%;
+    background-color:#23155B;
+    height: auto;
+}
+
+.left img {
+    transform: scale(0.5);
+    
+}
+
+.right {
+    background-color: #f4f4f4;
+    width: 50%;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 1px solid white;
+    box-shadow: 0 6px 16px rgba(0,0,0,.08);
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 400px;
+    min-height:400px;
+    padding: 0 20px 0 20px;
+}
+
+#joincoders {
+    font-family: 'Noto Sans Khojki';
+    color:#8053FF;
+    font-weight: 800;
+    padding:30px 0 20px 100px;
+    font-size: 20px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form input, .signup-form button {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 10px 12px;
+    border: 1px solid;
+
+}
+
+.signup-form input {
+    background-color: #23155B;
+}
+
+.signup-form button {
+    background-color: #107ed9;
+    color:white;
+}
+
+.login p {
+    font-family: 'Noto Sans Khojki';
+    font-size: 15px;
+    padding-left: 80px;
+    display: inline;
+}
+
+.login a {
+    text-decoration: none;
+    color:#8053FF;
+    font-family: 'Noto Sans Khojki';
+}
