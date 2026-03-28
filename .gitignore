@@ -1,0 +1,13 @@
+assets/
+index.html
+index-responsive.html
+signin.html
+signup.html
+style.css
+responsive-style.css
+signin-style.css
+signup-style.css
+node_modules
+dist
+.env
+.DS_Store
